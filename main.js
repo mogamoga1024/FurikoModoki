@@ -39,7 +39,7 @@ setInterval(() => {
     }
 
     for (let i = 4; i >= 0; i--) {
-        const l = 60 * 4;
+        const l = 60 * 5;
         const maxRadian = Math.PI / 8 * (i + 1);
         const angularFrequency = Math.sqrt(g / l);
         const radian = maxRadian * Math.cos(angularFrequency * t);
