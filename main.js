@@ -11,7 +11,7 @@ const ballRadius = 20;
 const g = 9.80665;
 
 let t = 0;
-let fps = 60;
+const fps = 60;
 
 setInterval(() => {
     context.clearRect(0, 0, canvas.width, canvas.height);
